@@ -44,12 +44,12 @@ export default function InternCard({
           <Button className="col-12 mb-3">
             Certificate <MilitaryTechIcon className="ms-2" />
           </Button>
-          <Button className="col-5 ">
+          <Button className="col-12 ">
             Code <GitHubIcon className="ms-2" />
           </Button>
-          <Button className="col-5">
+          {/* <Button className="col-5">
             Demo <PreviewIcon className="ms-2" />
-          </Button>
+          </Button> */}
         </div>
       </div>
       {/* </div> */}

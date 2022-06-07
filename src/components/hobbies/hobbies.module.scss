@@ -1,0 +1,61 @@
+
+.wrapper {
+    
+  .hobCard {
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px 0.01px #6f7070;
+    border-radius: 10px;
+    overflow: hidden;
+    &:nth-child(3){
+        // transform: ;
+        transform: rotate(30deg),;
+    }
+    &:nth-child(2){
+        transform: translateY(-50px);
+        // transform: rotate(-30deg);
+    }
+    &:nth-child(1){
+        // transform: translateY(50px);
+        transform: rotate(-30deg);
+    }
+    .box {
+      height: 200px;
+      img {
+        object-fit: cover;
+      }
+      span {
+        font-size: 24px;
+        font-weight: 900;
+        color: white;
+      }
+      .round {
+        border-radius: 50%;
+        margin: 5px 0;
+      }
+    }
+    .content {
+      background-color: black;
+      h5 {
+        color: #ffffff;
+      }
+      h6 {
+        color: white;
+      }
+      small {
+        color: rgb(255, 255, 255);
+        text-align: justify;
+      }
+      h5,
+      h6,
+      p {
+        text-transform: capitalize;
+      }
+      button {
+        background-color: #00b894;
+
+        margin-bottom: 3px;
+        color: white;
+      }
+    }
+  }
+}

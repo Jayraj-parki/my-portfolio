@@ -1,0 +1,74 @@
+.services {
+  background-color: black;
+  .serviceTitle {
+    color: white;
+    span {
+      color: #00b894;
+    }
+  }
+
+  .wrapper {
+    .cv {
+      h4 {
+        background-color: white;
+      }
+      button {
+        background-color: #00b894;
+        color: white;
+      }
+      .serviceCard {
+        transform: translate(90px,90px);
+      }
+    }
+    .card1 {
+      transform: translateY(120px);
+    }
+    .card2 {
+      .serviceCard {
+        &:nth-child(1) {
+          transform: translateY(-30px);
+        }
+        &:nth-child(2) {
+          transform: translateX(-120px);
+        }
+      }
+    }
+    .serviceCard {
+      border-radius: 10px;
+      overflow: hidden;
+      .image{
+        background-color: white;
+      }
+      img {
+        border-radius: 10px;
+        object-fit: cover;
+        overflow: hidden;
+      }
+
+      .content {
+        background-color: #00b894;
+        h5 {
+          color: #ffffff;
+        }
+        h6 {
+          color: white;
+        }
+        small {
+          color: rgb(255, 255, 255);
+          text-align: justify;
+        }
+        h5,
+        h6,
+        p {
+          text-transform: capitalize;
+        }
+        button {
+          background-color: #00b894;
+
+          margin-bottom: 3px;
+          color: white;
+        }
+      }
+    }
+  }
+}

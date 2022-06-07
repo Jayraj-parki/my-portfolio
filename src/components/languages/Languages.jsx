@@ -23,9 +23,9 @@ export default function Languages() {
   const tools=['Vs Code',"PyCharm","Eclipse IDE","Adobe","Figma","Git Bash","MS Office","Android Studio"]
   return (
     <>
-    <div className={style.languages + " py-2"}>
+    <div className={style.languages + " py-2 mb-3"}>
       <div className={style.title + " row col-12 mx-auto m-0 p-0  "}>
-        <h5 className="d-flex  align-items-center p-0">
+        <h5 className="d-flex  align-items-center p-0 mb-3">
           <ArrowRightIcon /> Languages and Frameworks
         </h5>
       </div>
@@ -45,9 +45,9 @@ export default function Languages() {
         ))}
       </div>
     </div>
-    <div className={style.languages + " py-2"}>
+    <div className={style.languages + " py-2 mb-3"}>
       <div className={style.title + " row col-12 mx-auto m-0 p-0  "}>
-        <h5 className="d-flex  align-items-center p-0">
+        <h5 className="d-flex  align-items-center p-0 mb-3">
           <ArrowRightIcon /> Knowledge
         </h5>
       </div>
@@ -67,9 +67,9 @@ export default function Languages() {
         ))}
       </div>
     </div>
-    <div className={style.languages + " py-2"}>
+    <div className={style.languages + " py-2 "}>
       <div className={style.title + " row col-12 mx-auto m-0 p-0  "}>
-        <h5 className="d-flex  align-items-center p-0">
+        <h5 className="d-flex  align-items-center p-0 mb-3">
           <ArrowRightIcon /> Tools
         </h5>
       </div>

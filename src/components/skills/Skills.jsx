@@ -9,7 +9,7 @@ export default function Skills() {
       <div className={style.title + " row col-10 mx-auto mb-3"}>
         <h3 className="d-flex  align-items-center">
           <DoubleArrowOutlinedIcon className={style.icon} /> Look at my
-          Technical Skills
+         <span className="ms-2">Technical Skills</span> 
         </h3>
       </div>
       <div
