@@ -1,0 +1,29 @@
+.footer {
+    background-color: black;
+    color: white;
+   .wrapper{
+       .email,.phone{
+           .icon{
+               background-color: #00b894;
+               height: 50px;
+               width: 50px;
+               border-radius: 50%;
+           }
+       }
+       .profiles,.socialMedia,.projects,.publication{
+           ul{
+               list-style: none;
+               li{
+                   cursor: pointer;
+                   &:hover{
+                       color: #00b894;
+                   }
+               }
+           }
+       }
+    }
+    .copyright{
+        background-color: #1f1f1f;
+    }
+  }
+  

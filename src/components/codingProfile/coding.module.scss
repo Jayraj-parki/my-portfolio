@@ -1,0 +1,46 @@
+.codingProfile {
+  background-color: black;
+  .wrapper {
+    .profileButton,.data {
+      .box {
+        background-color: #1f1f1f;
+        box-shadow:inset 2px 2px .7px 0.1px #00b894;
+    }
+    .button {
+        background-color: transparent;
+        box-shadow:2px 2px 7px 0.1px black;
+        // box-shadow: 0px 1px .7px 0.1px #00b894;
+        &:hover {
+          transition: all 0.2s ease-in-out;
+          box-shadow: none;
+          background-color: #00b894;
+          transform: scale(1.05);
+        }
+        &:active {
+          background-color: #55efc4;
+        }
+        span {
+          color: white;
+          font-size: 18px;
+          cursor: pointer;
+        }
+      }
+      h1 {
+        font-size: 80px;
+        color: #00b894;
+      }
+      h2 {
+        font-size: 80px;
+        color: white;
+      }
+      p {
+        color: #b2bec3;
+      }
+    }
+    .profileImage {
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}

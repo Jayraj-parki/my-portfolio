@@ -1,0 +1,47 @@
+.internCard {
+  border-radius: 10px;
+  box-shadow: 4px 4px 12px 0.01px #6f7070;
+  border-radius: 10px;
+  overflow: hidden;
+  .box {
+      height: 200px;
+      img{
+          object-fit: cover;
+      }
+    span {
+      font-size: 24px;
+      font-weight: 900;
+      color: white;
+    }
+    .round{
+        border-radius: 50%;
+        margin: 5px 0;
+    }
+  }
+  .content {
+    background-color: black;
+    h5 {
+      color: #00b894;
+    }
+    h6 {
+      color: white;
+    }
+    small {
+      color: rgb(227, 226, 226);
+    }
+    h5,
+    h6,
+    p {
+      text-transform: capitalize;
+    }
+    button {
+      background-color: #00b894;
+
+      margin-bottom: 3px;
+      color: white;
+    }
+  }
+}
+#up{
+    transform: translateY(-100px);
+}

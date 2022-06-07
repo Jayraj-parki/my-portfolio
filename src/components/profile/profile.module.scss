@@ -1,0 +1,36 @@
+.profile {
+  background-color: black;
+  .wrapper {
+    .content {
+      h1 {
+        font-size: 80px;
+        color: #00b894;
+      }
+      h2 {
+        font-size: 80px;
+        color: white;
+      }
+      p {
+        color: #b2bec3;
+      }
+      button{
+        border-radius: 40px ;
+        background-color: #00b894;
+        text-transform: capitalize;
+        font-size: 15px;
+        border: 2px solid #00b894;
+        color: white;
+        &:hover{
+          background-color: black;
+          border: 2px solid #00b894;
+        }
+      }
+    }
+    .profileImage {
+    
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}

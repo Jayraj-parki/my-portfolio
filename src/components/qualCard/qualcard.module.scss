@@ -1,0 +1,21 @@
+.qualCard{
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px .01px #6f7070;
+    .circle{
+        height: 100px;
+        width: 100px;
+        background-color: #00b894;
+        border-radius: 50%;
+        span{
+            font-size: 24px;
+            font-weight: 900;
+            color: white;
+        }
+    }
+    h5{
+        color: #00b894;
+    }
+    h5,h6,p{
+        text-transform: capitalize;
+    }
+}
