@@ -1,0 +1,51 @@
+
+.shortcut {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    transition: all 0.5s ease-in-out;
+    // overflow: hidden;
+    .component {
+      // position: absolute;
+      z-index: 100;
+      // background-color: blue;
+      a {
+        border-radius: 10px;
+        background-color: #00b894;
+        animation: stagger ease-in-out 0.4s forwards 1;
+        // animation-delay: 0;
+        text-decoration: none;
+        color: white;
+        opacity: 0;
+        position: relative;
+        @keyframes stagger {
+          from{
+            opacity: 0;
+            transform: translateY(80px);
+          }
+          to{
+            opacity: 1;
+            transform: translateY(0px);
+          }
+        }
+        &:hover{
+          background-color: #03876d;
+          
+        }
+        
+      }
+    }
+   
+    .iconButton {
+      transition: all 0.5s ease-in-out;
+      background-color: #00b894;
+      &:hover{
+        background-color: #00b894;
+  
+      }
+      .icon {
+        color: white;
+      }
+    }
+  }
+  

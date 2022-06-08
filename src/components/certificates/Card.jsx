@@ -5,10 +5,10 @@ import style from "./certificate.module.scss";
 export default function Card({ name, platform, issued, img, link }) {
   return (
     //
-    <div
+    <div 
       className={
         style.Card +
-        " row  mt-4  col-5  py-2  mx-auto  d-flex justify-content-center align-items-center"
+        " row col-11 mt-4 col-ms-8  col-lg-5  py-2  mx-auto  d-flex justify-content-center align-items-center"
       }
     >
       <div className={"col-md-3"}>

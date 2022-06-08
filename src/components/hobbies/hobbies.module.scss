@@ -1,22 +1,25 @@
-
 .wrapper {
-    
   .hobCard {
     border-radius: 10px;
     box-shadow: 4px 4px 12px 0.01px #6f7070;
     border-radius: 10px;
     overflow: hidden;
-    &:nth-child(3){
+    @media screen and (min-width: 1300px) {
+      &:nth-child(3) {
         // transform: ;
-        transform: rotate(30deg),;
-    }
-    &:nth-child(2){
+        transform: rotate(30deg);
+      }
+      &:nth-child(2) {
         transform: translateY(-50px);
         // transform: rotate(-30deg);
-    }
-    &:nth-child(1){
+      }
+      &:nth-child(1) {
         // transform: translateY(50px);
         transform: rotate(-30deg);
+      }
+    }
+    @media screen and (max-width: 1300px) {
+      transform: scaleX(0.92);
     }
     .box {
       height: 200px;

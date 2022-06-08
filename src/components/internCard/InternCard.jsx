@@ -11,13 +11,15 @@ export default function InternCard({
   domain,
   duration,
   status,
+  code,
+  certificate
 }) {
   return (
     <div
       id={up ? style.up : "id"}
       className={
         style.internCard +
-        " row  mt-4  col-3  p-0  mx-auto   d-flex justify-content-center align-items-center"
+        " row  mt-4 col-10 col-sm-8 col-md-5  col-lg-3  p-0  mx-auto   d-flex justify-content-center align-items-center"
       }
     >
       <div className={" col-12 p-0 m-0"}>
@@ -41,10 +43,10 @@ export default function InternCard({
           <small className="text-muted">{duration}</small>
         </div>
         <div className="row col-12 mx-auto mb-3 d-flex justify-content-between">
-          <Button className="col-12 mb-3">
-            Certificate <MilitaryTechIcon className="ms-2" />
+          <Button onClick={()=>window.open(certificate)} className="col-12 mb-3">
+            Certificate  <MilitaryTechIcon className="ms-2" />
           </Button>
-          <Button className="col-12 ">
+          <Button onClick={()=>window.open(code)} className="col-12 ">
             Code <GitHubIcon className="ms-2" />
           </Button>
           {/* <Button className="col-5">

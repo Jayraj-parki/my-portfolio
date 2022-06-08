@@ -24,25 +24,25 @@ export default function CodingProfile() {
               " row  col-12 mx-auto  py-3  rounded d-flex justify-content-center"
             }
           >
-            <div className={style.button + " col-auto  m-2  p-3  "}>
+            <div onClick={()=>window.open("https://www.linkedin.com/in/jayraj-parki-b348a61a7/")} className={style.button + " col-auto  m-2  p-3  "}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <LinkedInIcon className="" />
               </span>
               <span className={style.hoverIcon}>Linkedin</span>
             </div>
-            <div className={style.button + " col-auto  m-2  p-3  "}>
+            <div onClick={()=>window.open("https://github.com/Jayraj-parki")} className={style.button + " col-auto  m-2  p-3  "}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <GitHubIcon className="" />
               </span>
               <span className={style.hoverIcon}>Git Hub</span>
             </div>
-            <div className={style.button + " col-auto  m-2  p-3  "}>
+            <div onClick={()=>window.open("https://leetcode.com/jayrajpc338/")} className={style.button + " col-auto  m-2  p-3  "}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <CodeIcon className="" />
               </span>
               <span className={style.hoverIcon}>LeetCode</span>
             </div>
-            <div className={style.button + " col-auto  m-2  p-3  "}>
+            <div onClick={()=>window.open("https://www.hackerrank.com/jayrajparkicet")} className={style.button + " col-auto  m-2  p-3  "}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <StarsIcon className="" />
               </span>
@@ -57,25 +57,25 @@ export default function CodingProfile() {
               " row  col-12 mx-auto  py-3  rounded d-flex justify-content-center"
             }
           >
-            <div className={style.button + " col-auto m-2  p-3  "}>
+            <div className={style.button + " col-auto m-2  p-3  "} onClick={()=>window.open("https://www.instagram.com/jayraj_parki/")}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <InstagramIcon className="" />
               </span>
               <span className={style.hoverIcon}>Instagram</span>
             </div>
-            <div className={style.button + " col-auto m-2  p-3  "}>
+            <div className={style.button + " col-auto m-2  p-3  "} onClick={()=>window.open("https://www.facebook.com/jayraj.parkinew")}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <FacebookIcon className="" />
               </span>
               <span className={style.hoverIcon}>Facebook</span>
             </div>
-            <div className={style.button + " col-auto m-2  p-3  "}>
+            <div className={style.button + " col-auto m-2  p-3  "} onClick={()=>window.open("https://wa.me/919082934394")}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <WhatsAppIcon className="" />
               </span>
               <span className={style.hoverIcon}>Whatsapp</span>
             </div>
-            <div className={style.button + " col-auto m-2  p-3  "}>
+            <div className={style.button + " col-auto m-2  p-3  "} onClick={()=>window.open("mailto:jayrajparkicet@gmail.com?")}>
               <span className={style.icon+" d-flex align-items-center"}>
                 <EmailIcon className="" />
               </span>

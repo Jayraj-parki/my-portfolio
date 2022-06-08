@@ -1,12 +1,12 @@
 import React from "react";
 import style from "./services.module.scss";
 
-export default function ServiceCard({ img, name, info }) {
+export default function ServiceCard({ img, name, info ,status}) {
   return (
     <div
       className={
         style.serviceCard +
-        " row  mt-4  col-12   p-0  mx-auto   d-flex justify-content-center align-items-center"
+        " row  mt-4 col-sm-10 col-md-12   p-3  mx-auto   d-flex justify-content-center align-items-center"
       }
     >
       <div className={style.image+" col-12  p-1  m-0"}>

@@ -12,27 +12,33 @@
       h4 {
         background-color: white;
       }
-      button {
+      .download {
+        
         background-color: #00b894;
         color: white;
       }
-      .serviceCard {
-        transform: translate(90px,90px);
+      @media  screen and (min-width:992px) {
+        .serviceCard {
+          transform: translate(90px,90px);
+        }
       }
     }
-    .card1 {
-      transform: translateY(120px);
-    }
-    .card2 {
-      .serviceCard {
-        &:nth-child(1) {
-          transform: translateY(-30px);
+    @media  screen and (min-width:992px) {
+      .card1 {
+        transform: translateY(120px);
+      }
+      .card2 {
+        .serviceCard {
+          &:nth-child(1) {
+            transform: translateY(-30px);
+          }
         }
-        &:nth-child(2) {
+        span{
           transform: translateX(-120px);
         }
       }
     }
+    
     .serviceCard {
       border-radius: 10px;
       overflow: hidden;

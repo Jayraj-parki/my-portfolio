@@ -5,15 +5,15 @@ export default function EngCard({ name, fe, se, te, be, year, std, board }) {
     <div
       className={
         style.engCard +
-        " row  mt-4  col-11  p-0  ms-auto  d-flex justify-content-center align-items-center"
+        " row  mt-4  col-12  p-0 mx-auto mx-md-2  d-flex justify-content-center align-items-center"
       }
     >
       <div className={"col-12 p-0"}>
         <div
           className={
             style.box +
-            " col-12 d-flex mb-3 justify-content-center align-items-center "
-          }
+            " col-12 d-flex mb-3 px-2 justify-content-center align-items-center "
+          } 
         >
           <span>{std}</span>
         </div>

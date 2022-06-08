@@ -5,7 +5,7 @@ import HobCard from "./HobCard";
 
 export default function Hobbies() {
   return (
-    <div className={style.hobbies + " container-fluid p-0  py-4 "}>
+    <div id="hobbies" className={style.hobbies + " container-fluid p-0  py-4 "}>
       <div className={style.hobbiesTitle + " row col-10 mx-auto "}>
         <h3 className="d-flex  align-items-center">
           <DoubleArrowOutlinedIcon className={style.icon} /> Look at my Hobbies
@@ -14,7 +14,7 @@ export default function Hobbies() {
       <div
         className={
           style.wrapper +
-          " row col-10  mx-auto p-0 py-5 d-flex justify-content-between "
+          " row col-11 col-xxl-10  mx-auto p-0 py-5 d-flex justify-content-between "
         }
       >
         <HobCard

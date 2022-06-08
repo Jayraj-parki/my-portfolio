@@ -14,7 +14,7 @@ export default function HobCard({
       
       className={
         style.hobCard +
-        " row  mt-4  col-3  p-0  mx-auto   d-flex justify-content-center align-items-center"
+        " row  mt-4 col-sm-8 col-md-6 col-lg-4  col-xxl-3  p-0  mx-auto   d-flex justify-content-center align-items-center"
       }
     >
       <div className={" col-12 p-0 m-0"}>

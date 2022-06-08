@@ -8,7 +8,7 @@ import DoubleArrowOutlinedIcon from "@mui/icons-material/DoubleArrowOutlined";
 export default function Project() {
   const arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
   return (
-    <div className={style.project + " container-fluid p-0  py-4 "}>
+    <div id="projects" className={style.project + " container-fluid p-0  py-4 "}>
       <div className={style.projectTitle + " row col-10 mx-auto "}>
         <h3 className="d-flex  align-items-center">
           <DoubleArrowOutlinedIcon className={style.icon} /> Look at my Recent Projects
@@ -17,16 +17,27 @@ export default function Project() {
       <div
         className={
           style.wrapper +
-          " row col-10  mx-auto p-0 py-4 d-flex justify-content-between flex-column "
+          " row col-10  mx-auto p-0  py-4 d-flex justify-content-between flex-column "
         }
       >
         <Swiper
         modules={[Pagination]}
         spaceBetween={30}
-        slidesPerView={3.2}
+        breakpoints={{
+          // when window width is >= 640px
+          640: {
+            width: 640,
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+          768: {
+            width: 768,
+            slidesPerView: 2,
+          },
+        }}
         grabCursor={true}
         pagination={{clickable:true}}
-        className="p-3"
+        className={style.swipper+ " p-3 "}
         >
           {
             arr?.map((val,id)=>

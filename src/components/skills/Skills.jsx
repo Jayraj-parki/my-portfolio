@@ -5,7 +5,7 @@ import Languages from "../languages/Languages";
 
 export default function Skills() {
   return (
-    <div className={style.skills + " py-5"}>
+    <div id="skills" className={style.skills + " py-5"}>
       <div className={style.title + " row col-10 mx-auto mb-3"}>
         <h3 className="d-flex  align-items-center">
           <DoubleArrowOutlinedIcon className={style.icon} /> Look at my

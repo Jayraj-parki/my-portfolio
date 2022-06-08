@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import style from "./home.module.scss";
 import Certificates from "../../components/certificates/Certificates";
 import CodingProfile from "../../components/codingProfile/CodingProfile";
 import Comments from "../../components/comments/Comments";
@@ -11,26 +12,32 @@ import Project from "../../components/projects/Project";
 import Qualification from "../../components/qualification/Qualification";
 import Services from "../../components/services/Services";
 import Skills from "../../components/skills/Skills";
-import style from "./home.module.scss";
+import Accesibility from "../../components/accesibility/Accesibility";
+
 export default function Home() {
+  
+  
   return (
-    <div className={style.home + " container-fluid p-0"}>
-      <div className={style.wrapper}>
-        <Navbar />
-        <Profile />
-        <CodingProfile />
-        <Qualification />
-        <hr className="row col-10 mx-auto"/>
-        <Internship />
-        <Skills />
-        <Project/>
-        <Comments/>
-        <hr className="row col-10 mx-auto"/>
-        <Hobbies/>
-        <Services/>
-        <Certificates />
-        <Footer />
+    <>
+      <div className={style.home + " container-fluid p-0"}>
+        <div className={style.wrapper}>
+          <Navbar />
+          <Profile />
+          <CodingProfile />
+          <Qualification />
+          <hr className="row col-10 mx-auto" />
+          <Internship />
+          <Skills />
+          <Project />
+          <Comments />
+          <hr className="row col-10 mx-auto" />
+          <Hobbies />
+          <Services />
+          <Certificates />
+          <Footer />
+        </div>
       </div>
-    </div>
+      <Accesibility/>
+    </>
   );
 }
